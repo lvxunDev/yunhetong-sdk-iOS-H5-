@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		406F6A11CC7F58637B1C01D2 /* libPods-CloudContract_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C351ADFB3DCCD35BCC8E079 /* libPods-CloudContract_SDK.a */; };
+		CF67F63D1CC8B04F00BBB7AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF67F63C1CC8B04F00BBB7AF /* main.m */; };
+		CF67F6401CC8B04F00BBB7AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF67F63F1CC8B04F00BBB7AF /* AppDelegate.m */; };
+		CF67F6481CC8B04F00BBB7AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF67F6471CC8B04F00BBB7AF /* Assets.xcassets */; };
+		CF67F64B1CC8B04F00BBB7AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF67F6491CC8B04F00BBB7AF /* LaunchScreen.storyboard */; };
+		CF67F6561CC8B04F00BBB7AF /* CloudContract_SDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF67F6551CC8B04F00BBB7AF /* CloudContract_SDKTests.m */; };
+		CF772EF61D06A504006005DF /* YHTSDKDemoConfirmViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF772EF41D06A504006005DF /* YHTSDKDemoConfirmViewController.m */; };
+		CF772EF71D06A504006005DF /* YHTSDKDemoConfirmViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF772EF51D06A504006005DF /* YHTSDKDemoConfirmViewController.xib */; };
+		CFA5B1FF1D057B1600239C6A /* YHTSDKDemoShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA5B1FD1D057B1600239C6A /* YHTSDKDemoShowViewController.m */; };
+		CFA5B2001D057B1600239C6A /* YHTSDKDemoShowViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CFA5B1FE1D057B1600239C6A /* YHTSDKDemoShowViewController.xib */; };
+		CFA7DA281CE9E18500D6EDD3 /* YHTSDKDemoContractListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA7DA271CE9E18500D6EDD3 /* YHTSDKDemoContractListViewController.m */; };
+		CFA7DA2B1CE9E49700D6EDD3 /* YHTSDKDemoContract.m in Sources */ = {isa = PBXBuildFile; fileRef = CFA7DA2A1CE9E49700D6EDD3 /* YHTSDKDemoContract.m */; };
+		CFB348441EB31D6000723405 /* UIViewController+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB348431EB31D6000723405 /* UIViewController+Ext.m */; };
+		CFB348491EB32B1000723405 /* YHTContractContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB348461EB32B1000723405 /* YHTContractContentViewController.m */; };
+		CFB3484A1EB32B1000723405 /* YHTTokenManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB348481EB32B1000723405 /* YHTTokenManager.m */; };
+		CFB3484D1EB32B4F00723405 /* MBProgressHUD+Wqz.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB3484C1EB32B4F00723405 /* MBProgressHUD+Wqz.m */; };
+		CFB3484F1EB3304C00723405 /* YHTSdk.bundle in Resources */ = {isa = PBXBuildFile; fileRef = CFB3484E1EB3304C00723405 /* YHTSdk.bundle */; };
+		CFB348541EB331C300723405 /* YHTConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB348511EB331C300723405 /* YHTConstants.m */; };
+		CFB348581EB331F400723405 /* YHTContractWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB348571EB331F400723405 /* YHTContractWebView.m */; };
+		CFB3485B1EB333ED00723405 /* NSNumber+Wqz.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB3485A1EB333ED00723405 /* NSNumber+Wqz.m */; };
+		CFB3485E1EB3340D00723405 /* NSString+Wqz.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB3485D1EB3340D00723405 /* NSString+Wqz.m */; };
+		CFB348611EB3343D00723405 /* UIImage+Wqz.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB348601EB3343D00723405 /* UIImage+Wqz.m */; };
+		CFB9F2581D0304AD00262E49 /* YHTSDKDemoTokenListener.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB9F2571D0304AD00262E49 /* YHTSDKDemoTokenListener.m */; };
+		CFF258B41D0ED6010093F0CD /* YHTSDKDemoBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFF258B31D0ED6010093F0CD /* YHTSDKDemoBaseViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF67F6521CC8B04F00BBB7AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF67F6301CC8B04F00BBB7AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF67F6371CC8B04F00BBB7AF;
+			remoteInfo = CloudContract_SDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6C351ADFB3DCCD35BCC8E079 /* libPods-CloudContract_SDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CloudContract_SDK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8348C4A7459945511BC4E404 /* Pods-CloudContract_SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudContract_SDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-CloudContract_SDK/Pods-CloudContract_SDK.release.xcconfig"; sourceTree = "<group>"; };
+		8D89880A687DC8BAB5F00825 /* Pods-CloudContract_SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CloudContract_SDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CloudContract_SDK/Pods-CloudContract_SDK.debug.xcconfig"; sourceTree = "<group>"; };
+		CF67F6381CC8B04F00BBB7AF /* CloudContract_SDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CloudContract_SDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF67F63C1CC8B04F00BBB7AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF67F63E1CC8B04F00BBB7AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF67F63F1CC8B04F00BBB7AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF67F6471CC8B04F00BBB7AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF67F64A1CC8B04F00BBB7AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF67F64C1CC8B04F00BBB7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF67F6511CC8B04F00BBB7AF /* CloudContract_SDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CloudContract_SDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF67F6551CC8B04F00BBB7AF /* CloudContract_SDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = CloudContract_SDKTests.m; path = CloudContract_SDKTests/CloudContract_SDKTests.m; sourceTree = SOURCE_ROOT; };
+		CF67F6571CC8B04F00BBB7AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF772EF31D06A504006005DF /* YHTSDKDemoConfirmViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTSDKDemoConfirmViewController.h; sourceTree = "<group>"; };
+		CF772EF41D06A504006005DF /* YHTSDKDemoConfirmViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTSDKDemoConfirmViewController.m; sourceTree = "<group>"; };
+		CF772EF51D06A504006005DF /* YHTSDKDemoConfirmViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHTSDKDemoConfirmViewController.xib; sourceTree = "<group>"; };
+		CFA5B1FC1D057B1600239C6A /* YHTSDKDemoShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTSDKDemoShowViewController.h; sourceTree = "<group>"; };
+		CFA5B1FD1D057B1600239C6A /* YHTSDKDemoShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTSDKDemoShowViewController.m; sourceTree = "<group>"; };
+		CFA5B1FE1D057B1600239C6A /* YHTSDKDemoShowViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YHTSDKDemoShowViewController.xib; sourceTree = "<group>"; };
+		CFA7DA261CE9E18500D6EDD3 /* YHTSDKDemoContractListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTSDKDemoContractListViewController.h; sourceTree = "<group>"; };
+		CFA7DA271CE9E18500D6EDD3 /* YHTSDKDemoContractListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTSDKDemoContractListViewController.m; sourceTree = "<group>"; };
+		CFA7DA291CE9E49700D6EDD3 /* YHTSDKDemoContract.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTSDKDemoContract.h; sourceTree = "<group>"; };
+		CFA7DA2A1CE9E49700D6EDD3 /* YHTSDKDemoContract.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTSDKDemoContract.m; sourceTree = "<group>"; };
+		CFB348421EB31D6000723405 /* UIViewController+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Ext.h"; sourceTree = "<group>"; };
+		CFB348431EB31D6000723405 /* UIViewController+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Ext.m"; sourceTree = "<group>"; };
+		CFB348451EB32B1000723405 /* YHTContractContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTContractContentViewController.h; sourceTree = "<group>"; };
+		CFB348461EB32B1000723405 /* YHTContractContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTContractContentViewController.m; sourceTree = "<group>"; };
+		CFB348471EB32B1000723405 /* YHTTokenManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTTokenManager.h; sourceTree = "<group>"; };
+		CFB348481EB32B1000723405 /* YHTTokenManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTTokenManager.m; sourceTree = "<group>"; };
+		CFB3484B1EB32B4F00723405 /* MBProgressHUD+Wqz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Wqz.h"; sourceTree = "<group>"; };
+		CFB3484C1EB32B4F00723405 /* MBProgressHUD+Wqz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Wqz.m"; sourceTree = "<group>"; };
+		CFB3484E1EB3304C00723405 /* YHTSdk.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = YHTSdk.bundle; sourceTree = "<group>"; };
+		CFB348501EB331C300723405 /* YHTConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTConstants.h; sourceTree = "<group>"; };
+		CFB348511EB331C300723405 /* YHTConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTConstants.m; sourceTree = "<group>"; };
+		CFB348561EB331F400723405 /* YHTContractWebView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTContractWebView.h; sourceTree = "<group>"; };
+		CFB348571EB331F400723405 /* YHTContractWebView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTContractWebView.m; sourceTree = "<group>"; };
+		CFB348591EB333ED00723405 /* NSNumber+Wqz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Wqz.h"; sourceTree = "<group>"; };
+		CFB3485A1EB333ED00723405 /* NSNumber+Wqz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Wqz.m"; sourceTree = "<group>"; };
+		CFB3485C1EB3340D00723405 /* NSString+Wqz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Wqz.h"; sourceTree = "<group>"; };
+		CFB3485D1EB3340D00723405 /* NSString+Wqz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Wqz.m"; sourceTree = "<group>"; };
+		CFB3485F1EB3343D00723405 /* UIImage+Wqz.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Wqz.h"; sourceTree = "<group>"; };
+		CFB348601EB3343D00723405 /* UIImage+Wqz.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Wqz.m"; sourceTree = "<group>"; };
+		CFB9F2561D0304AD00262E49 /* YHTSDKDemoTokenListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTSDKDemoTokenListener.h; sourceTree = "<group>"; };
+		CFB9F2571D0304AD00262E49 /* YHTSDKDemoTokenListener.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTSDKDemoTokenListener.m; sourceTree = "<group>"; };
+		CFCF4D3B1E051209007BD328 /* libPods-CloudContract_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-CloudContract_SDK.a"; path = "../../Library/Developer/Xcode/DerivedData/CloudContract_SDK-ejuufliyyrnabtamovrqnwzkwqxf/Build/Products/Debug-iphonesimulator/libPods-CloudContract_SDK.a"; sourceTree = "<group>"; };
+		CFF258B21D0ED6010093F0CD /* YHTSDKDemoBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHTSDKDemoBaseViewController.h; sourceTree = "<group>"; };
+		CFF258B31D0ED6010093F0CD /* YHTSDKDemoBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHTSDKDemoBaseViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF67F6351CC8B04F00BBB7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				406F6A11CC7F58637B1C01D2 /* libPods-CloudContract_SDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF67F64E1CC8B04F00BBB7AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08EFED2FB027B0E1A9633347 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFCF4D3B1E051209007BD328 /* libPods-CloudContract_SDK.a */,
+				6C351ADFB3DCCD35BCC8E079 /* libPods-CloudContract_SDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C378AD4984CB973E714D2F01 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D89880A687DC8BAB5F00825 /* Pods-CloudContract_SDK.debug.xcconfig */,
+				8348C4A7459945511BC4E404 /* Pods-CloudContract_SDK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF67F62F1CC8B04F00BBB7AF = {
+			isa = PBXGroup;
+			children = (
+				CF67F63A1CC8B04F00BBB7AF /* CloudContract_SDK */,
+				CFB347E41EB2DCB300723405 /* YHT_SDK */,
+				CF67F6541CC8B04F00BBB7AF /* CloudContract_SDKTests */,
+				CF67F6391CC8B04F00BBB7AF /* Products */,
+				C378AD4984CB973E714D2F01 /* Pods */,
+				08EFED2FB027B0E1A9633347 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CF67F6391CC8B04F00BBB7AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF67F6381CC8B04F00BBB7AF /* CloudContract_SDK.app */,
+				CF67F6511CC8B04F00BBB7AF /* CloudContract_SDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF67F63A1CC8B04F00BBB7AF /* CloudContract_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				CF67F63E1CC8B04F00BBB7AF /* AppDelegate.h */,
+				CF67F63F1CC8B04F00BBB7AF /* AppDelegate.m */,
+				CFB348421EB31D6000723405 /* UIViewController+Ext.h */,
+				CFB348431EB31D6000723405 /* UIViewController+Ext.m */,
+				CF67F6471CC8B04F00BBB7AF /* Assets.xcassets */,
+				CF67F6551CC8B04F00BBB7AF /* CloudContract_SDKTests.m */,
+				CF67F64C1CC8B04F00BBB7AF /* Info.plist */,
+				CF67F6491CC8B04F00BBB7AF /* LaunchScreen.storyboard */,
+				CF67F63B1CC8B04F00BBB7AF /* Supporting Files */,
+				CFA7DA291CE9E49700D6EDD3 /* YHTSDKDemoContract.h */,
+				CFA7DA2A1CE9E49700D6EDD3 /* YHTSDKDemoContract.m */,
+				CFB9F2561D0304AD00262E49 /* YHTSDKDemoTokenListener.h */,
+				CFB9F2571D0304AD00262E49 /* YHTSDKDemoTokenListener.m */,
+				CF772EF31D06A504006005DF /* YHTSDKDemoConfirmViewController.h */,
+				CF772EF41D06A504006005DF /* YHTSDKDemoConfirmViewController.m */,
+				CF772EF51D06A504006005DF /* YHTSDKDemoConfirmViewController.xib */,
+				CFA7DA261CE9E18500D6EDD3 /* YHTSDKDemoContractListViewController.h */,
+				CFA7DA271CE9E18500D6EDD3 /* YHTSDKDemoContractListViewController.m */,
+				CFA5B1FC1D057B1600239C6A /* YHTSDKDemoShowViewController.h */,
+				CFA5B1FD1D057B1600239C6A /* YHTSDKDemoShowViewController.m */,
+				CFA5B1FE1D057B1600239C6A /* YHTSDKDemoShowViewController.xib */,
+				CFF258B21D0ED6010093F0CD /* YHTSDKDemoBaseViewController.h */,
+				CFF258B31D0ED6010093F0CD /* YHTSDKDemoBaseViewController.m */,
+				CFB3484B1EB32B4F00723405 /* MBProgressHUD+Wqz.h */,
+				CFB3484C1EB32B4F00723405 /* MBProgressHUD+Wqz.m */,
+				CFB348591EB333ED00723405 /* NSNumber+Wqz.h */,
+				CFB3485A1EB333ED00723405 /* NSNumber+Wqz.m */,
+				CFB3485C1EB3340D00723405 /* NSString+Wqz.h */,
+				CFB3485D1EB3340D00723405 /* NSString+Wqz.m */,
+				CFB3485F1EB3343D00723405 /* UIImage+Wqz.h */,
+				CFB348601EB3343D00723405 /* UIImage+Wqz.m */,
+				CFB3484E1EB3304C00723405 /* YHTSdk.bundle */,
+			);
+			path = CloudContract_SDK;
+			sourceTree = "<group>";
+		};
+		CF67F63B1CC8B04F00BBB7AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF67F63C1CC8B04F00BBB7AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF67F6541CC8B04F00BBB7AF /* CloudContract_SDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF67F6571CC8B04F00BBB7AF /* Info.plist */,
+			);
+			path = CloudContract_SDKTests;
+			sourceTree = "<group>";
+		};
+		CFB347E41EB2DCB300723405 /* YHT_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				CFB348501EB331C300723405 /* YHTConstants.h */,
+				CFB348511EB331C300723405 /* YHTConstants.m */,
+				CFB348471EB32B1000723405 /* YHTTokenManager.h */,
+				CFB348481EB32B1000723405 /* YHTTokenManager.m */,
+				CFB348561EB331F400723405 /* YHTContractWebView.h */,
+				CFB348571EB331F400723405 /* YHTContractWebView.m */,
+				CFB348451EB32B1000723405 /* YHTContractContentViewController.h */,
+				CFB348461EB32B1000723405 /* YHTContractContentViewController.m */,
+			);
+			name = YHT_SDK;
+			path = CloudContract_SDK/YHT_SDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF67F6371CC8B04F00BBB7AF /* CloudContract_SDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF67F6651CC8B04F00BBB7AF /* Build configuration list for PBXNativeTarget "CloudContract_SDK" */;
+			buildPhases = (
+				219270EE362A028CB39EF3BB /* [CP] Check Pods Manifest.lock */,
+				CF67F6341CC8B04F00BBB7AF /* Sources */,
+				CF67F6351CC8B04F00BBB7AF /* Frameworks */,
+				CF67F6361CC8B04F00BBB7AF /* Resources */,
+				DC48882C1820EE3E293D0203 /* [CP] Embed Pods Frameworks */,
+				9303FB2FA43EBE16D6590BF4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CloudContract_SDK;
+			productName = CloudContract_SDK;
+			productReference = CF67F6381CC8B04F00BBB7AF /* CloudContract_SDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF67F6501CC8B04F00BBB7AF /* CloudContract_SDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF67F6681CC8B04F00BBB7AF /* Build configuration list for PBXNativeTarget "CloudContract_SDKTests" */;
+			buildPhases = (
+				CF67F64D1CC8B04F00BBB7AF /* Sources */,
+				CF67F64E1CC8B04F00BBB7AF /* Frameworks */,
+				CF67F64F1CC8B04F00BBB7AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF67F6531CC8B04F00BBB7AF /* PBXTargetDependency */,
+			);
+			name = CloudContract_SDKTests;
+			productName = CloudContract_SDKTests;
+			productReference = CF67F6511CC8B04F00BBB7AF /* CloudContract_SDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF67F6301CC8B04F00BBB7AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = dazheng_wu;
+				TargetAttributes = {
+					CF67F6371CC8B04F00BBB7AF = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 633UF3BWJG;
+					};
+					CF67F6501CC8B04F00BBB7AF = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CF67F6371CC8B04F00BBB7AF;
+					};
+				};
+			};
+			buildConfigurationList = CF67F6331CC8B04F00BBB7AF /* Build configuration list for PBXProject "CloudContract_SDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF67F62F1CC8B04F00BBB7AF;
+			productRefGroup = CF67F6391CC8B04F00BBB7AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF67F6371CC8B04F00BBB7AF /* CloudContract_SDK */,
+				CF67F6501CC8B04F00BBB7AF /* CloudContract_SDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF67F6361CC8B04F00BBB7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF67F64B1CC8B04F00BBB7AF /* LaunchScreen.storyboard in Resources */,
+				CFB3484F1EB3304C00723405 /* YHTSdk.bundle in Resources */,
+				CFA5B2001D057B1600239C6A /* YHTSDKDemoShowViewController.xib in Resources */,
+				CF67F6481CC8B04F00BBB7AF /* Assets.xcassets in Resources */,
+				CF772EF71D06A504006005DF /* YHTSDKDemoConfirmViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF67F64F1CC8B04F00BBB7AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		219270EE362A028CB39EF3BB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9303FB2FA43EBE16D6590BF4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudContract_SDK/Pods-CloudContract_SDK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC48882C1820EE3E293D0203 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CloudContract_SDK/Pods-CloudContract_SDK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF67F6341CC8B04F00BBB7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFF258B41D0ED6010093F0CD /* YHTSDKDemoBaseViewController.m in Sources */,
+				CFB348491EB32B1000723405 /* YHTContractContentViewController.m in Sources */,
+				CFB3485E1EB3340D00723405 /* NSString+Wqz.m in Sources */,
+				CFB348541EB331C300723405 /* YHTConstants.m in Sources */,
+				CFB348441EB31D6000723405 /* UIViewController+Ext.m in Sources */,
+				CFA7DA281CE9E18500D6EDD3 /* YHTSDKDemoContractListViewController.m in Sources */,
+				CF772EF61D06A504006005DF /* YHTSDKDemoConfirmViewController.m in Sources */,
+				CFB3484D1EB32B4F00723405 /* MBProgressHUD+Wqz.m in Sources */,
+				CFA7DA2B1CE9E49700D6EDD3 /* YHTSDKDemoContract.m in Sources */,
+				CFB3485B1EB333ED00723405 /* NSNumber+Wqz.m in Sources */,
+				CFA5B1FF1D057B1600239C6A /* YHTSDKDemoShowViewController.m in Sources */,
+				CFB348581EB331F400723405 /* YHTContractWebView.m in Sources */,
+				CF67F6401CC8B04F00BBB7AF /* AppDelegate.m in Sources */,
+				CF67F63D1CC8B04F00BBB7AF /* main.m in Sources */,
+				CFB9F2581D0304AD00262E49 /* YHTSDKDemoTokenListener.m in Sources */,
+				CFB348611EB3343D00723405 /* UIImage+Wqz.m in Sources */,
+				CFB3484A1EB32B1000723405 /* YHTTokenManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF67F64D1CC8B04F00BBB7AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF67F6561CC8B04F00BBB7AF /* CloudContract_SDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF67F6531CC8B04F00BBB7AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF67F6371CC8B04F00BBB7AF /* CloudContract_SDK */;
+			targetProxy = CF67F6521CC8B04F00BBB7AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF67F6491CC8B04F00BBB7AF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF67F64A1CC8B04F00BBB7AF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF67F6631CC8B04F00BBB7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CF67F6641CC8B04F00BBB7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF67F6661CC8B04F00BBB7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D89880A687DC8BAB5F00825 /* Pods-CloudContract_SDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CloudContract_SDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_CFLAGS = "-O2";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lx.CloudContract;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		CF67F6671CC8B04F00BBB7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8348C4A7459945511BC4E404 /* Pods-CloudContract_SDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = CloudContract_SDK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lx.CloudContract;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		CF67F6691CC8B04F00BBB7AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CloudContract_SDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lx.CloudContract.CloudContract-SDKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudContract_SDK.app/CloudContract_SDK";
+			};
+			name = Debug;
+		};
+		CF67F66A1CC8B04F00BBB7AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CloudContract_SDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lx.CloudContract.CloudContract-SDKTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CloudContract_SDK.app/CloudContract_SDK";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF67F6331CC8B04F00BBB7AF /* Build configuration list for PBXProject "CloudContract_SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF67F6631CC8B04F00BBB7AF /* Debug */,
+				CF67F6641CC8B04F00BBB7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF67F6651CC8B04F00BBB7AF /* Build configuration list for PBXNativeTarget "CloudContract_SDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF67F6661CC8B04F00BBB7AF /* Debug */,
+				CF67F6671CC8B04F00BBB7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF67F6681CC8B04F00BBB7AF /* Build configuration list for PBXNativeTarget "CloudContract_SDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF67F6691CC8B04F00BBB7AF /* Debug */,
+				CF67F66A1CC8B04F00BBB7AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF67F6301CC8B04F00BBB7AF /* Project object */;
+}
