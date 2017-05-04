@@ -10,7 +10,8 @@
 
 @implementation YHTConstants
 
-NSString * const kViewWebContract_URL      = @"sdk/viewsopen/m/contract_view_m.html";
+//NSString * const kViewWebContract_URL      = @"sdk/viewsopen/m/contract_view_m.html";
+NSString * const kViewWebContract_URL      = @"sdk/viewOpen/redirectContractView";
 
 #pragma mark - Java
 NSString * const kToken_URL                = @"sdkdemo/token";
